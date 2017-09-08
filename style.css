@@ -1,293 +1,323 @@
 div, figure, figcaption, img {
-			border: 1px solid black;
-		}
+	border: 1px solid black;
+}
 
-		.ui-state-disabled {
-			cursor: default !important;
-			pointer-events: none;
-		}
+.ui-state-disabled {
+	cursor: default !important;
+	pointer-events: none;
+}
 
-		.ui-icon {
-			display: inline-block;
-			vertical-align: middle;
-			margin-top: -.25em;
-			margin-right: 10px;
-			position: relative;
-			text-indent: -99999px;
-			overflow: hidden;
-			background-repeat: no-repeat;
-		}
+.ui-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -.25em;
+	margin-right: 10px;
+	position: relative;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
 
-		.ui-widget-icon-block {
-			left: 50%;
-			margin-left: -8px;
-			display: block;
-		}
+.ui-widget-icon-block {
+	left: 50%;
+	margin-left: -8px;
+	display: block;
+}
 
-		.ui-widget-overlay {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
-		.ui-accordion .ui-accordion-header {
-			display: block;
-			cursor: pointer;
-			position: relative;
-			margin: 2px 0 0 0;
-			padding: .5em .5em .5em .7em;
-			font-size: 100%;
-			text-transform: uppercase;
-			font-weight: bold;
-		}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
-		.ui-accordion .ui-accordion-content {
-			padding: 1em 1.25em 2em;
-			overflow: auto;
-		}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 1.25em 2em;
+	overflow: auto;
+}
 
 
-		.ui-widget {
-			font-size: 1em;
-		}
+.ui-widget {
+	font-size: 1em;
+}
 
-		.ui-widget .ui-widget {
-			font-size: 1em;
-		}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
 
-		.ui-widget input,
-		.ui-widget select,
-		.ui-widget textarea,
-		.ui-widget button {
-			font-size: 1em;
-		}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-size: 1em;
+}
 
-		.ui-icon {
-			width: 24px;
-			height: 24px;
-		}
+.ui-icon {
+	width: 24px;
+	height: 24px;
+}
 
-		.ui-icon-triangle-1-e { 
-			/* background: url("ruta/right.svg"); */
-			transition: all 0.1s linear;
-		}
+.ui-icon-triangle-1-e { 
+	background: url("right.svg");
+	transition: all 0.1s linear;
+}
 
-		.ui-icon-triangle-1-s { 
-			/* background: url("ruta/bottom.svg"); */
-			transition: all 0.1s linear;
-		}
+.ui-icon-triangle-1-s { 
+	background: url("bottom.svg");
+	transition: all 0.1s linear;
+}
 
-		.demoHeaders {
-			margin-top: 2em;
-		}
+.fucsia .ui-icon-triangle-1-e { 
+	background: url("right-white.svg");
+	transition: all 0.1s linear;
+}
 
-		#icons {
-			margin: 0;
-			padding: 0;
-		}
+.fucsia .ui-icon-triangle-1-s { 
+	background: url("bottom-white.svg");
+	transition: all 0.1s linear;
+}
 
-		#icons li {
-			margin: 2px;
-			position: relative;
-			padding: 4px 0;
-			cursor: pointer;
-			float: left;
-			list-style: none;
-		}
+.demoHeaders {
+	margin-top: 2em;
+}
 
-		#icons span.ui-icon {
-			float: left;
-			margin: 0 4px;
-		}
+#icons {
+	margin: 0;
+	padding: 0;
+}
 
-		.fakewindowcontain .ui-widget-overlay {
-			position: absolute;
-		}
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
 
-		select {
-			width: 200px;
-		}	
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
 
-		.ui-widget-content {
-			margin-bottom: .5em;
-		}
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
 
-		.ui-state-default,
-		.ui-widget-content .ui-state-default,
-		.ui-widget-header .ui-state-default,
-		.ui-button,
+select {
+	width: 200px;
+}	
 
-		html .ui-button.ui-state-disabled:hover,
-		html .ui-button.ui-state-disabled:active {
-			background: #f9f9f9;
-		}
+.ui-widget-content {
+	margin-bottom: .5em;
+}
 
-		.ui-state-default a,
-		.ui-state-default a:link,
-		.ui-state-default a:visited,
-		a.ui-button,
-		a:link.ui-button,
-		a:visited.ui-button,
-		.ui-button {
-			text-decoration: none;
-		}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
 
-		.ui-state-hover a,
-		.ui-state-hover a:hover,
-		.ui-state-hover a:link,
-		.ui-state-hover a:visited,
-		.ui-state-focus a,
-		.ui-state-focus a:hover,
-		.ui-state-focus a:link,
-		.ui-state-focus a:visited,
-		a.ui-button:hover,
-		a.ui-button:focus {
-			text-decoration: none;
-		}
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+	background: #f9f9f9;
+}
 
-		.ui-state-active,
-		.ui-widget-content .ui-state-active,
-		.ui-widget-header .ui-state-active,
-		a.ui-button:active,
-		.ui-button:active,
-		.ui-button.ui-state-active:hover {
-			background: #ececec;
-		}
+.fucsia.ui-state-default,
+.fucsia.ui-widget-content .ui-state-default,
+.fucsia.ui-widget-header .ui-state-default,
+.fucsia.ui-button,
 
-		#accordion .accordion-description figure, #accordion .accordion-assemble figure {
-			width: 100%;
-			margin: 0 auto;
-		}
+html .fucsia.ui-button.ui-state-disabled:hover,
+html .fucsia.ui-button.ui-state-disabled:active {
+	background: #ff009b;
+	color: #ffffff;
+}
 
-		#accordion .accordion-description figure *{
-			display: block;
-		}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button {
+	text-decoration: none;
+}
 
-		#accordion .accordion-description figure img {
-			width: 175px;
-			margin: 0 auto;
-		}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited,
+a.ui-button:hover,
+a.ui-button:focus {
+	text-decoration: none;
+}
 
-		#accordion .accordion-description .icon {
-			width: 16%;
-		}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+	background: #ececec;
+}
 
-		#accordion .accordion-description .boton {
-			width: 200px;
-		}
+.fucsia.ui-state-active,
+.fucsia.ui-widget-content .ui-state-active,
+.fucsia.ui-widget-header .ui-state-active,
+.fucsia a.ui-button:active,
+.fucsia.ui-button:active,
+.fucsia.ui-button.ui-state-active:hover {
+	background: #d30088;
+}
 
-		#accordion .accordion-assemble figure {
-			display: block;
-		}
+#accordion .align_right {
+	text-align: right;
+}
 
-		#accordion .accordion-assemble figure img{
-			width: 25%;
-			display: inline-block;
-			vertical-align: middle;
-		}
+#accordion .accordion-description figure, #accordion .accordion-assemble figure {
+	width: 100%;
+	margin: 0 auto;
+}
 
-		#accordion .accordion-assemble figure figcaption{
-			width: 65%;
-			display: inline-block;
-			vertical-align: middle;
-			margin-left: 5%;
-		}
+#accordion .accordion-description figure *{
+	display: block;
+}
 
-		#accordion .accordion-features {
-			width:  90%;
-			margin: 0 auto;
-			display: block;
-		    clear: both;
-		}
+#accordion .accordion-description figure img {
+	width: 175px;
+	margin: 0 auto;
+}
 
-		#accordion .accordion-features hr {
-			height: 1px;
-			border-width: 0;
-			color: #cccccc;
-			background-color: #cccccc;
-		}
+#accordion .accordion-assemble figure {
+	display: block;
+}
 
-		#accordion .accordion-features hr:first-of-type {
-			height: 2px;
-		}
+#accordion .accordion-assemble figure img{
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+}
 
-		#accordion .accordion-features .attribute{
-			width: 30%;
-			margin: 0;
-			display: inline-block;
-			vertical-align: middle;
-		}
+#accordion .accordion-assemble figure figcaption{
+	width: 65%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
+}
 
-		#accordion .accordion-features .details{
-			width: 60%;
-			margin: 0;
-			display: inline-block;
-			vertical-align: top;
-		}
+#accordion .accordion-features {
+	width:  90%;
+	margin: 0 auto;
+	display: block;
+    clear: both;
+}
 
-		#accordion .accordion-features h4{
-			color: #00b0eb;
-			text-transform: uppercase;
-		}
+#accordion .accordion-features hr {
+	height: 1px;
+	border-width: 0;
+	color: #cccccc;
+	background-color: #cccccc;
+}
 
-		#accordion .accordion-dimensions div {
-			width: 90%;
-			border-top: 1px solid #cccccc;
-			padding-top: 1em;
-			margin:  0 auto 3em;
-		}
+#accordion .accordion-features hr:first-of-type {
+	height: 2px;
+}
 
-		#accordion .accordion-dimensions div h4 {
-			text-transform: uppercase;
-			margin-bottom: 2em;
-		}
+#accordion .accordion-features .attribute{
+	width: 30%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
 
-		#accordion .accordion-dimensions figure {
-			width: 22.5%;
-			display: inline-block;
-			margin: 0 auto;
-		}
+#accordion .accordion-features .details{
+	width: 60%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+}
 
-		#accordion .accordion-dimensions figure img {
-			width: 100%;
-			height: auto;
-			margin: 0;
-		}
+#accordion .accordion-features h4{
+	color: #00b0eb;
+	text-transform: uppercase;
+}
 
-		#accordion .accordion-dimensions figcaption {
-			text-align: center;
-			font-weight: bold;
-		}
+#accordion .accordion-dimensions div {
+	width: 90%;
+	border-top: 1px solid #cccccc;
+	padding-top: 1em;
+	margin:  0 auto 3em;
+}
 
-		#accordion .accordion-product_cares ul {
-			display: block;
-		    list-style-type: circle;
-		    margin: 0 5%;
-		}
+#accordion .accordion-dimensions div:first-of-type { 
+	border-top: 0;
+}
 
-		@media screen and (max-width: 768px) {
+#accordion .accordion-dimensions div h4 {
+	text-transform: uppercase;
+	margin-bottom: 2em;
+}
 
-			#accordion .accordion-assemble figure img{
-				width: 40%;
-			}
+#accordion .accordion-dimensions figure {
+	width: 22.5%;
+	display: inline-block;
+	margin: 0 auto;
+}
 
-			#accordion .accordion-assemble figure figcaption{
-				width: 55%;
-				float: right;
-			}
+#accordion .accordion-dimensions figure img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
 
-			#accordion .accordion-features .attribute{
-				width: 40%;
-			}
+#accordion .accordion-dimensions figcaption {
+	text-align: center;
+	font-weight: bold;
+}
 
-			#accordion .accordion-features .details{
-				width: 50%;
-			}
+#accordion .accordion-product_cares ul {
+	display: block;
+    list-style-type: circle;
+    margin: 0 5%;
+}
 
-			#accordion .accordion-dimensions figure {
-				width: 60%;
-				margin: 2em 10%;
-			}
-		}
+@media screen and (max-width: 768px) {
+
+	#accordion .accordion-assemble figure img{
+		width: 40%;
+	}
+
+	#accordion .accordion-assemble figure figcaption{
+		width: 55%;
+		float: right;
+	}
+
+	#accordion .accordion-features .attribute{
+		width: 40%;
+	}
+
+	#accordion .accordion-features .details{
+		width: 50%;
+	}
+
+	#accordion .accordion-dimensions figure {
+		width: 60%;
+		margin: 2em 10%;
+	}
+}

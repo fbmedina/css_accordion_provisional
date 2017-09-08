@@ -76,6 +76,16 @@
 	transition: all 0.1s linear;
 }
 
+.fucsia .ui-icon-triangle-1-e { 
+	background: url("right-white.svg");
+	transition: all 0.1s linear;
+}
+
+.fucsia .ui-icon-triangle-1-s { 
+	background: url("bottom-white.svg");
+	transition: all 0.1s linear;
+}
+
 .demoHeaders {
 	margin-top: 2em;
 }
@@ -121,6 +131,17 @@ html .ui-button.ui-state-disabled:active {
 	background: #f9f9f9;
 }
 
+.fucsia.ui-state-default,
+.fucsia.ui-widget-content .ui-state-default,
+.fucsia.ui-widget-header .ui-state-default,
+.fucsia.ui-button,
+
+html .fucsia.ui-button.ui-state-disabled:hover,
+html .fucsia.ui-button.ui-state-disabled:active {
+	background: #ff009b;
+	color: #ffffff;
+}
+
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited,
@@ -151,6 +172,19 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	background: #ececec;
+}
+
+.fucsia.ui-state-active,
+.fucsia.ui-widget-content .ui-state-active,
+.fucsia.ui-widget-header .ui-state-active,
+.fucsia a.ui-button:active,
+.fucsia.ui-button:active,
+.fucsia.ui-button.ui-state-active:hover {
+	background: #d30088;
+}
+
+#accordion .align_right {
+	text-align: right;
 }
 
 #accordion .accordion-description figure, #accordion .accordion-assemble figure {
@@ -226,6 +260,10 @@ a.ui-button:active,
 	border-top: 1px solid #cccccc;
 	padding-top: 1em;
 	margin:  0 auto 3em;
+}
+
+#accordion .accordion-dimensions div:first-of-type { 
+	border-top: 0;
 }
 
 #accordion .accordion-dimensions div h4 {
