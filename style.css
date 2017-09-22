@@ -398,6 +398,34 @@ a.ui-button:active,
 	font-weight: bold;
 }
 
+#accordion .accordion-features-items div {
+	width: 90%;
+	border-top: 1px solid #cccccc;
+	padding-top: 1em;
+	margin:  0 auto 3em;
+}
+
+#accordion .accordion-features-items div:first-of-type { 
+	background: #f9f9f9;
+	box-sizing: border-box;
+	padding: 1em;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px 1px 0 1px;
+}
+
+#accordion .accordion-features-items div h4 {
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+
+#accordion .accordion-features-items div img {
+	width: 125px;
+	margin-top: 1em;
+}
+
 #accordion .accordion-list ul {
 	display: block;
     list-style-type: circle;
